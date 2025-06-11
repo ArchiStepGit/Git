@@ -1,0 +1,13 @@
+git init
+git status
+git add .
+git status
+git branch
+git branch -M main
+git remote add origin https://github.com/ArchiStepGit/Git.git
+git push -u origin main
+
+git add .
+git commit -m "Nombre de la edicion"
+git push
+git log --oneline
